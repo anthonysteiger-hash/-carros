@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo dos Carros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            padding-bottom: 60px; /* Evita que o footer cubra o conteúdo */
+        }
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .car-card {
+            background-color: #fff;
+            padding: 15px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .car-image {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #1a1a1a;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Paixão por Carros</h1>
+        <p>O seu guia básico sobre o universo automotivo</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Bem-vindo ao Mundo Automotivo</h2>
+            <p>Os carros mudaram o mundo e continuam evoluindo a cada dia. Dos clássicos motores a combustão aos modernos carros elétricos, a velocidade e o design sempre nos impressionam.</p>
+        </section>
+
+        <section>
+            <h2>Modelos Destacados</h2>
+            
+            <div class="car-card">
+                <h3>Esportivos</h3>
+                <p>Modelos focados em desempenho, aerodinâmica e velocidade, como as clássicas Ferraris e Mustangs.</p>
+                <img class="car-image" src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800" alt="Carro Esportivo Porsche">
+            </div>
+
+            <div class="car-card">
+                <h3>Elétricos</h3>
+                <p>O futuro da mobilidade, focados em sustentabilidade e tecnologia de ponta, como os modelos da Tesla.</p>
+                <img class="car-image" src="https://images.unsplash.com/photo-1563720223185-11003d516935?w=800" alt="Carro Elétrico SUV">
+            </div>
+
+            <div class="car-card">
+                <h3>Clássicos</h3>
+                <p>Carros que marcaram época e se tornaram lendas do design, como o Fusca e o Opala.</p>
+                <img class="car-image" src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=800" alt="Carro Clássico Antigo">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Site sobre Carros. Criado para fins educativos.</p>
+    </footer>
+
+</body>
+</html>
+
+
